@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  html,body {
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul > li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+
+.navbar {
+    /* display: inline-block; */
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    /* border-bottom: 1px black solid; */
+
+}   
+
+.logo1 {
+    padding: 20px 0px;
+}
+.logo1 img{
+    width: 14em;
+}
+.navbar1 {
+    display: flex;
+    /* margin-top: 30px; */
+
+}
+
+
+.nav1 {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav1 img {
+    width: 50px;
+    height: auto;
+    padding: 2px;
+}
+
+
+.main {
+    /* background-color: #000; */
+    background: url("https://r2omm.com/wp-content/themes/r2o/images/byft-bg.svg") no-repeat 30% 30%; 
+    color: #fff;
+    background-color: #000000;
+    background-size: cover;  
+}
+@media(max-width:876px){
+    .sideitems {
+        display: block !important;
+    }
+    .navbar1 {
+        display: none;
+    }
+}
+.sideitems {
+    padding: 20px 0px;
+    font-size: 30px;
+    display: none;
+}
+.container1 {
+    padding: 113px 0px 126px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.container1 h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.container1 p {
+    font-size: 1rem;
+    margin-bottom: 100px;
+}
+
+.btn1 a{
+    background-color: #48F9FB;
+    color: #000000;
+    text-align: center;
+    padding: 0.7em 1.8em;
+    border-radius: 3px;
+}
+
+.btn1 a:hover {
+    color: #00a48f;
+}
+
+.container1 .para1.in-viewpoint-one::before {
+    width: 116px;
+}
+.container1 .para1::before {
+    content: " ";
+    background-color: #00ffff;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: 40px 0px;
+    transition: width 1s ease;
+    transition-delay: 2s;
+    
+}
